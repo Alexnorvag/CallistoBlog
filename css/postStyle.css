@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i');
+
+html,
+body {
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    border-top: 4px solid #edc27b;
+    background: #f5f5f5;
+}
+
+.header {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    height: 100vh;
+    min-height: 400px;
+    min-width: 300px;
+    color: #fff;
+}
+
+.header:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(https://static1.squarespace.com/static/55f32833e4b07856e0032d6d/58285853b8a79bc71b2a1a8c/58285853b8a79bc71b2a1a8d/1479039063260/whales-and-dolphins.jpg?format=2500w) top center no-repeat;
+    background-size: cover;
+    z-index: -2;
+}
+
+.header:before {
+    content: "";
+    width: 100%;
+    height: 40%;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+}
+
+.container a {
+    color: #fff;
+}
+
+.logo-and-menu {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.logo {
+    border: 2px solid #edc27b;
+    border-radius: 3px;
+    text-decoration: none;
+    margin: 20px;
+    padding: 5px 10px;
+    font-weight: 600;
+    font-size: 1.2em;
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #edc27b !important;
+}
+
+.menu-column {
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    display: flex;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+}
+
+.menu {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #edc27b;
+    border-radius: 3px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    text-decoration: none
+}
+
+.menu:after {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 3px;
+    background: #eee;
+    position: absolute;
+    margin: 0 auto;
+    top: 5px;
+    left: 0;
+    right: 0;
+    box-shadow: 0 8px, 0 16px
+}
