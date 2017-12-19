@@ -2,20 +2,23 @@
   "articles": [
     {
       "id": 1,
-      "title": "Title1",
-      "content": "Ut noster tractavissent, summis hic eiusmod te quem. Doctrina velit litteris eu eu fore ingeniis philosophari ne quid o ingeniis ne anim, illum ea iudicem. Pariatur duis dolor hic dolor ad vidisse amet elit ita summis, quo duis te  malis, velit nostrud ingeniis. Appellat elit tamen iudicem multos, mentitum quae sed appellat illustriora. Velit commodo cernantur se si anim do labore, probant ab aliqua aut non laborum fidelissimae. Ex quae se fugiat, et malis officia in et enim cillum ita incididunt, a irure amet an ingeniis.",
+      "title": "Whales and dolphins",
+      "content": "Whales and dolphins — both members of the cetacean family — are among the brainiest beings. Scientists have now identified differences among them that are tied to relative brain size. And now, scientists have identified key differences among cetaceans linked to brain size. A study of 90 cetacean species found that those with larger brains exhibit greater complexity in social structures and behaviors, with species like the killer whale and whale leading the way.",
+      "image": "https://static1.squarespace.com/static/55f32833e4b07856e0032d6d/58285853b8a79bc71b2a1a8c/58285853b8a79bc71b2a1a8d/1479039063260/whales-and-dolphins.jpg?format=2500w",
       "postType": "none"
     },
     {
       "id": 2,
       "title": "Title2",
       "content": "Ut noster tractavissent, summis hic eiusmod te quem. Doctrina velit litteris eu eu fore ingeniis philosophari ne quid o ingeniis ne anim, illum ea iudicem. Pariatur duis dolor hic dolor ad vidisse amet elit ita summis, quo duis te  malis, velit nostrud ingeniis. Appellat elit tamen iudicem multos, mentitum quae sed appellat illustriora. Velit commodo cernantur se si anim do labore, probant ab aliqua aut non laborum fidelissimae. Ex quae se fugiat, et malis officia in et enim cillum ita incididunt, a irure amet an ingeniis.",
+      "image": "https://static.tumblr.com/b1c3f552defbbd59642c44c9cecc7b78/nush1o4/q9cnof0oa/tumblr_static_tumblr_static__640.jpg",
       "postType": "none"
     },
     {
       "id": 3,
       "title": "Title3",
       "content": "Ut noster tractavissent, summis hic eiusmod te quem. Doctrina velit litteris eu eu fore ingeniis philosophari ne quid o ingeniis ne anim, illum ea iudicem. Pariatur duis dolor hic dolor ad vidisse amet elit ita summis, quo duis te  malis, velit nostrud ingeniis. Appellat elit tamen iudicem multos, mentitum quae sed appellat illustriora. Velit commodo cernantur se si anim do labore, probant ab aliqua aut non laborum fidelissimae. Ex quae se fugiat, et malis officia in et enim cillum ita incididunt, a irure amet an ingeniis.",
+      "image": "https://static.tumblr.com/b1c3f552defbbd59642c44c9cecc7b78/nush1o4/q9cnof0oa/tumblr_static_tumblr_static__640.jpg",
       "postType": "none"
     }
   ]

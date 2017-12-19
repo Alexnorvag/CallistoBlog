@@ -11,5 +11,6 @@ function getParameterByName(name, url) {
 var numTitle = getParameterByName('k') - 1;
 
 $.getJSON('js/articles.json', function (data) {
-    $(".test").prepend("<h3>" + data.articles[numTitle].title + "</h3>");
+    $(".wrapper").prepend("<h3>" + data.articles[numTitle].title + "</h3>");
+    $("title").prepend(data.articles[numTitle].title);
 });
