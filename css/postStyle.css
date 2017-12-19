@@ -32,7 +32,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    background: url(https://static1.squarespace.com/static/55f32833e4b07856e0032d6d/58285853b8a79bc71b2a1a8c/58285853b8a79bc71b2a1a8d/1479039063260/whales-and-dolphins.jpg?format=2500w) top center no-repeat;
+    background: whitesmoke;
     background-size: cover;
     z-index: -2;
 }
@@ -116,4 +116,48 @@ body {
     left: 0;
     right: 0;
     box-shadow: 0 8px, 0 16px
+}
+
+.middle {
+    width: 100%;
+    content: " ";
+    display: table;
+}
+
+.post-container {
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/*.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.post-container:after, .post-container:before, .row:after, .row:before {
+    content: " ";
+    display: table;
+}
+
+.full-post:after, .full-post:before {
+    content: " ";
+    display: table;
+}*/
+.post-body {
+    width: 83.33333333%;
+    float: right;
+    padding: 0 15px;
+}
+
+.post-author {
+    width: 16.66666667%;
+    float: left;
+    padding: 0 15px;
+}
+
+::selection {
+    background-color: #7bedc2;
+    color: #000;
 }
