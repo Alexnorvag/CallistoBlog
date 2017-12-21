@@ -15,7 +15,7 @@ $.getJSON('js/articles.json', function (data) {
     $("a[href='']").attr("href", "" + data.articles[numTitle].image);
     $("img[src='']").attr("src", "" + data.articles[numTitle].image);
     $(".post-title").prepend(data.articles[numTitle].title);
-    $(".post-content > p").prepend(data.articles[numTitle].content);
+    $(".post > p.post-content").prepend(data.articles[numTitle].content);
     $("img.header-img[src='']").attr("src", "" + data.articles[numTitle].image);
     // $(".header").css("background", "url(" + data.articles[numTitle].image + ") center no-repeat");
 });
