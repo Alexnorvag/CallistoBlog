@@ -12,14 +12,23 @@
     <script src="js/script.js"></script>
     <script src="js/anchorScroll.js"></script>
 </head>
-
 <body>
+<div class="sidebar-container">
+    <div id="sidebar">
+        <a href="#" data-toggle=".sidebar-container" class="sidebar-close"></a>
+        <ul>
+            <li><a href="#" class="sidebar-item" rel="bookmark">Blog</a></li>
+            <li><a href="#" class="sidebar-item">About Me</a></li>
+            <li><a href="#" class="sidebar-item">Contact Me</a></li>
+        </ul>
+    </div>
+</div>
 <header class="header">
     <div class="sides">
         <a href="index.html" class="logo">CallistoBlog</a>
     </div>
     <div class="sides">
-        <a href="#" class="menu"></a>
+        <a href="#" data-toggle=".sidebar-container" class="menu"></a>
     </div>
     <div class="info">
         <h1>ALEX NORVAG</h1>
@@ -60,10 +69,14 @@
                         <h3>Follow Me</h3>
                         <div class="social-icons-wrapper">
                             <ul class="social-icons icon-circle icon-zoom list-unstyled list-inline">
-                                <li><a href="https://github.com/Alexnorvag" target="_blank"><i class="fa fa-github-alt"></i></a></li>
-                                <li><a href="https://vk.com/lexa_norvag" target="_blank"><i class="fa fa-vk"></i></a></li>
-                                <li><a href="https://trello.com/alexeygavron" target="_blank"><i class="fa fa-trello"></i></a></li>
-                                <li><a href="https://stackoverflow.com/users/7338979/a-norvag?tab=profile" target="_blank"><i class="fa fa-stack-overflow"></i></a></li>
+                                <li><a href="https://github.com/Alexnorvag" target="_blank"><i
+                                        class="fa fa-github-alt"></i></a></li>
+                                <li><a href="https://vk.com/lexa_norvag" target="_blank"><i class="fa fa-vk"></i></a>
+                                </li>
+                                <li><a href="https://trello.com/alexeygavron" target="_blank"><i
+                                        class="fa fa-trello"></i></a></li>
+                                <li><a href="https://stackoverflow.com/users/7338979/a-norvag?tab=profile"
+                                       target="_blank"><i class="fa fa-stack-overflow"></i></a></li>
                             </ul>
                         </div>
                     </div>
