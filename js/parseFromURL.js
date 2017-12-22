@@ -19,3 +19,10 @@ $.getJSON('js/articles.json', function (data) {
     $("img.header-img[src='']").attr("src", "" + data.articles[numTitle].image);
     // $(".header").css("background", "url(" + data.articles[numTitle].image + ") center no-repeat");
 });
+
+$(document).ready(function() {
+    $("[data-toggle]").click(function() {
+        var toggle_el = $(this).data("toggle");
+        $(toggle_el).toggleClass("open-sidebar");
+    });
+});

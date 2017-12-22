@@ -29,10 +29,6 @@ body {
     transform: translate3d(-360px, 0px, 0px);
 }
 
-.sidebar-container.close-sidebar {
-    transform: translate3d(0px, 0px, 0px);
-}
-
 .sidebar-container #sidebar {
     position: relative;
     min-width: 360px;
